@@ -1,28 +1,5 @@
 {
   "pages": {
-    "/(frontend)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(frontend)/layout.css",
-      "static/chunks/app/(frontend)/layout.js"
-    ],
-    "/(frontend)/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(frontend)/not-found.js"
-    ],
-    "/(frontend)/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(frontend)/page.css",
-      "static/chunks/app/(frontend)/page.js"
-    ],
-    "/(payload)/api/[...slug]/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(payload)/api/[...slug]/route.css",
-      "static/chunks/app/(payload)/api/[...slug]/route.js"
-    ],
     "/(payload)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -41,10 +18,11 @@
       "static/css/app/(payload)/admin/[[...segments]]/page.css",
       "static/chunks/app/(payload)/admin/[[...segments]]/page.js"
     ],
-    "/(frontend)/next/seed/route": [
+    "/(payload)/api/[...slug]/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(frontend)/next/seed/route.js"
+      "static/css/app/(payload)/api/[...slug]/route.css",
+      "static/chunks/app/(payload)/api/[...slug]/route.js"
     ]
   }
 }
